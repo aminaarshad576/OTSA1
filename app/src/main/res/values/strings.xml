@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">OTSA1</string>
+
+    <string name="login">Log In</string>
+    <string name="login2">Welcome</string>
+    <string name="Pass">******************</string>
+    <string name="usname">&#160;&#160;username</string>
+    <string name="msg1">Do not have an account?Create New</string>
+    <string name="forget">Forget Password?</string>
+
+    <string name="signup">Sign Up</string>
+    <string name="msg2">Already Have an account?Log In</string>
+    <string name="stu">As a Student</string>
+    <string name="stu2">Student</string>
+    <string name="Par">As a Parent</string>
+    <string name="Par2">Parent</string>
+    <string name="Adm">As an Admin</string>
+    <string name="Adm2">Admin</string>
+    <string name="Dri">As a Driver</string>
+    <string name="Dri2">Driver</string>
+
+    <string name="regnoCnic">Enter your Reg. No or CNIC</string>
+
+    <string name="EnUsername">&#160;&#160;Enter UserName</string>
+    <string name="EnPassword">&#160;&#160;Enter Password</string>
+    <string name="EnPhone">&#160;&#160;Enter Phone No.</string>
+    <string name="EnReg">&#160;&#160;Enter your Reg. No.</string>
+    <string name="EnFather">&#160;&#160;Enter Father Name</string>
+    <string name="Enemail">&#160;&#160;Enter email</string>
+    <string name="EnDesig">&#160;&#160;Enter Designation</string>
+    <string name="EnCnic">&#160;&#160;Enter CNIC</string>
+    <string name="EnAddress">&#160;&#160;Enter your Address</string>
+    <string name="createAcc">&#160;&#160;Create Account</string>
+
+    <string name="guard">Guardian</string>
+    <string name="ChildReg">Enter child Reg. No.</string>
+</resources>

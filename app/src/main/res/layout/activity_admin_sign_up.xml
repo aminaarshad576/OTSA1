@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:weightSum="8"
+    android:textColor="@color/blue"
+    tools:context=".AdminSignUp">
+
+    <View
+        android:layout_width="0sp"
+        android:layout_height="0sp"
+        android:layout_weight=".10" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="0sp"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:background="@drawable/logo6"
+        android:contentDescription="@string/login" />
+    <View
+        android:layout_width="0sp"
+        android:layout_height="0sp"
+        android:layout_weight=".10" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.5"
+        android:text="@string/signup"
+        android:textColor="@color/blue"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+    <View
+        android:layout_width="0sp"
+        android:layout_height="0sp"
+        android:layout_weight=".10" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0sp"
+        android:layout_gravity="center"
+        android:layout_weight="0.5"
+        android:text="@string/Adm2"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/AdmUsName"
+        android:layout_width="match_parent"
+        android:paddingLeft="20dp"
+        android:layout_height="0sp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_weight="0.5"
+        android:hint="@string/EnUsername"
+        android:background="@drawable/roundtextfield"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <View
+        android:layout_width="0sp"
+        android:layout_height="0sp"
+        android:layout_weight=".10" />
+
+    <EditText
+        android:id="@+id/AdmPass"
+        android:layout_width="match_parent"
+        android:paddingLeft="20dp"
+        android:layout_height="0sp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_weight="0.5"
+        android:hint="@string/EnPassword"
+        android:background="@drawable/roundtextfield"
+        android:inputType="textPassword"
+        android:autofillHints="" />
+
+    <View
+        android:layout_width="0sp"
+        android:layout_height="0sp"
+        android:layout_weight=".10" />
+    <EditText
+        android:id="@+id/AdmEmail"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:paddingLeft="20dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_weight="0.5"
+        android:hint="@string/Enemail"
+        android:background="@drawable/roundtextfield"
+        android:inputType="text"
+        android:autofillHints="" />
+    <View
+        android:layout_width="0sp"
+        android:layout_height="0sp"
+        android:layout_weight=".10" />
+    <EditText
+        android:id="@+id/AdmPhnNo"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:paddingLeft="20dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_weight="0.5"
+        android:hint="@string/EnPhone"
+        android:background="@drawable/roundtextfield"
+        android:inputType="text"
+        android:autofillHints="" />
+    <View
+        android:layout_width="0sp"
+        android:layout_height="0sp"
+        android:layout_weight=".10" />
+
+    <EditText
+        android:id="@+id/AdmCnic"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:paddingLeft="20dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_weight="0.5"
+        android:hint="@string/EnCnic"
+        android:background="@drawable/roundtextfield"
+        android:inputType="text"
+        android:autofillHints="" />
+
+    <View
+        android:layout_width="0sp"
+        android:layout_height="0sp"
+        android:layout_weight=".10" />
+
+    <EditText
+        android:id="@+id/AdmDesig"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:paddingLeft="20dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_weight="0.5"
+        android:hint="@string/EnDesig"
+        android:background="@drawable/roundtextfield"
+        android:inputType="text"
+        android:autofillHints="" />
+    <View
+        android:layout_width="0sp"
+        android:layout_height="0sp"
+        android:layout_weight=".10" />
+    <Button
+        android:id="@+id/admSignBtn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_weight="0.5"
+        android:background="@drawable/rounded_btn"
+        android:text="@string/createAcc" />
+
+</LinearLayout>

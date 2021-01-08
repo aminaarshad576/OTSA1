@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:verticalScrollbarPosition="defaultPosition"
+    android:weightSum="9"
+    tools:context=".Student_SignUp">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="0sp"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:background="@drawable/logo6"
+        android:contentDescription="@string/login"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0sp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="@string/signup"
+        android:textColor="@color/blue"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <View
+        android:layout_width="0sp"
+        android:layout_height="0sp"
+        android:layout_weight=".10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0sp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="@string/stu2"
+        android:textColor="@color/blue"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/stuUsName"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_gravity="center"
+        android:layout_weight="0.80"
+        android:background="@drawable/roundtextfield"
+        android:hint="@string/EnUsername"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColor="@color/blue" />
+
+    <View
+        android:layout_width="0sp"
+        android:layout_height="0sp"
+        android:layout_weight=".10" />
+
+    <EditText
+        android:id="@+id/stuPass"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_gravity="center"
+        android:layout_weight="0.75"
+        android:autofillHints=""
+        android:background="@drawable/roundtextfield"
+        android:hint="@string/EnPassword"
+        android:inputType="text"
+        android:textColor="@color/blue" />
+
+    <View
+        android:layout_width="0sp"
+        android:layout_height="0sp"
+        android:layout_weight=".10" />
+
+    <EditText
+        android:id="@+id/stuRegNo"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_gravity="center"
+        android:layout_weight="0.75"
+        android:autofillHints=""
+        android:background="@drawable/roundtextfield"
+        android:hint="@string/EnReg"
+        android:inputType="text"
+        android:textColor="@color/blue" />
+
+    <View
+        android:layout_width="0sp"
+        android:layout_height="0sp"
+        android:layout_weight=".10" />
+
+    <EditText
+        android:id="@+id/stuAdd"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_gravity="center"
+        android:layout_weight="0.75"
+        android:autofillHints=""
+        android:background="@drawable/roundtextfield"
+        android:hint="@string/EnAddress"
+        android:inputType="text"
+        android:textColor="@color/blue" />
+
+    <View
+        android:layout_width="0sp"
+        android:layout_height="0sp"
+        android:layout_weight=".10" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1.5">
+
+            <EditText
+                android:id="@+id/stuFatNm"
+                android:layout_width="167dp"
+                android:layout_height="0dp"
+                android:layout_gravity="start"
+                android:layout_weight="0.5"
+                android:autofillHints=""
+                android:background="@drawable/roundtextfield"
+                android:hint="@string/EnFather"
+                android:inputType="text"
+                android:textColor="@color/blue" />
+
+            <View
+                android:layout_width="0sp"
+                android:layout_height="0sp"
+                android:layout_weight="0.1" />
+
+            <EditText
+                android:id="@+id/stuPhnNo"
+                android:layout_width="167dp"
+                android:layout_height="0dp"
+                android:layout_gravity="start"
+                android:layout_weight="0.5"
+                android:autofillHints=""
+                android:background="@drawable/roundtextfield"
+                android:hint="@string/EnPhone"
+                android:inputType="text"
+                android:textColor="@color/blue" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1.5">
+
+            <ImageView
+                android:id="@+id/stuProPic"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/stu"
+                android:padding="1dp"
+                android:src="@drawable/profile" />
+
+            <Button
+                android:id="@+id/stuUpload_image"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:background="@drawable/rounded_btn"
+                android:text="Upload Image" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="0sp"
+        android:layout_height="0sp"
+        android:layout_weight=".30" />
+
+    <Button
+        android:id="@+id/stuSignUpBtn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_btn"
+        android:text="@string/createAcc" />
+
+</LinearLayout>

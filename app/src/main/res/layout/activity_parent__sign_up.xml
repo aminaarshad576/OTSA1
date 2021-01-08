@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:weightSum="7.5"
+    tools:context=".Parent_SignUp">
+
+    <View
+        android:layout_width="0sp"
+        android:layout_height="0sp"
+        android:layout_weight=".10" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="0sp"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:background="@drawable/logo6"
+        android:contentDescription="@string/login" />
+    <View
+        android:layout_width="0sp"
+        android:layout_height="0sp"
+        android:layout_weight=".10" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.5"
+        android:text="@string/signup"
+        android:textColor="@color/blue"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+    <View
+        android:layout_width="0sp"
+        android:layout_height="0sp"
+        android:layout_weight=".10" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0sp"
+        android:layout_gravity="center"
+        android:layout_weight="0.5"
+        android:text="@string/Par2"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/parUsName"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:paddingLeft="20dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_weight="0.5"
+        android:hint="@string/EnUsername"
+        android:background="@drawable/roundtextfield"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <View
+        android:layout_width="0sp"
+        android:layout_height="0sp"
+        android:layout_weight=".10" />
+
+    <EditText
+        android:id="@+id/parPass"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:paddingLeft="20dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_weight="0.5"
+        android:hint="@string/EnPassword"
+        android:background="@drawable/roundtextfield"
+        android:inputType="textPassword"
+        android:autofillHints="" />
+
+    <View
+        android:layout_width="0sp"
+        android:layout_height="0sp"
+        android:layout_weight=".10" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+            <RadioButton android:id="@+id/selectPar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_weight="0.4"
+                android:text="@string/Par2" />
+        <View
+            android:layout_width="0sp"
+            android:layout_height="0sp"
+            android:layout_weight="0.2" />
+
+            <RadioButton android:id="@+id/selectGuard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+            android:text="@string/guard" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="0sp"
+        android:layout_height="0sp"
+        android:layout_weight=".10" />
+
+    <View
+        android:layout_width="0sp"
+        android:layout_height="0sp"
+        android:layout_weight=".10" />
+    <EditText
+        android:id="@+id/parPhnNo"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:paddingLeft="20dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_weight="0.5"
+        android:hint="@string/EnPhone"
+        android:background="@drawable/roundtextfield"
+        android:inputType="text"
+        android:autofillHints="" />
+    <View
+        android:layout_width="0sp"
+        android:layout_height="0sp"
+        android:layout_weight=".10" />
+
+    <EditText
+        android:id="@+id/parCnic"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_gravity="center"
+        android:paddingLeft="20dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_weight="0.5"
+        android:hint="@string/EnCnic"
+        android:background="@drawable/roundtextfield"
+        android:inputType="text"
+        android:autofillHints="" />
+
+    <View
+        android:layout_width="0sp"
+        android:layout_height="0sp"
+        android:layout_weight=".10" />
+
+    <EditText
+        android:id="@+id/parChildReg"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:paddingLeft="20dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_weight="0.5"
+        android:hint="@string/ChildReg"
+        android:background="@drawable/roundtextfield"
+        android:inputType="text"
+        android:autofillHints="" />
+    <View
+        android:layout_width="0sp"
+        android:layout_height="0sp"
+        android:layout_weight=".10" />
+    <Button
+        android:id="@+id/parSignBtn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_weight="0.5"
+        android:background="@drawable/rounded_btn"
+        android:text="@string/createAcc" />
+
+
+</LinearLayout>
